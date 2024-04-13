@@ -16,6 +16,7 @@ let mobile_menu = document.querySelector('#mobile-menu');
 let karz = document.querySelector('.karz');
 let karz_menu = document.querySelector('#karz-menu')
 let cross = document.querySelector('.krestic')
+let cros = document.querySelector('.cros')
 
 burger.addEventListener('click', () => {
   burger.classList.toggle('active');
@@ -32,7 +33,7 @@ karz.addEventListener('click', () => {
   karz_menu.classList.toggle('active');
 });
 
-cross.addEventListener('click', () => {
+cros.addEventListener('click', () => {
   karz.classList.toggle('active');
   karz_menu.classList.toggle('active');
 });
